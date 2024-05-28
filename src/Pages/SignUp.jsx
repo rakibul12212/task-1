@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form'
 import {FormErrorMessage,FormLabel,FormControl,Input,Button} from '@chakra-ui/react'
 
-const SignIn = () => {
+const SignUp = () => {
     const {
         handleSubmit,
         register,
@@ -18,6 +18,21 @@ const SignIn = () => {
       }
     return (
         <form onSubmit={handleSubmit(onSubmit)} className='p-20'>
+      <FormControl isInvalid={errors.name}>
+        <FormLabel htmlFor='name'>First name</FormLabel>
+        <Input
+          id='name'
+          placeholder='name'
+          {...register('name', {
+            required: 'This is required',
+            minLength: { value: 4, message: 'Minimum length should be 4' },
+          })}
+        />
+        <FormErrorMessage>
+          {errors.name && errors.name.message}
+        </FormErrorMessage>
+      </FormControl>
+
       <FormControl isInvalid={errors.email}>
         <FormLabel htmlFor='email'>email</FormLabel>
         <Input
@@ -52,11 +67,15 @@ const SignIn = () => {
         </FormErrorMessage>
       </FormControl>
       <Button mt={4} colorScheme='teal' isLoading={isSubmitting} type='submit'>
-        Sign In
+        Sign Up
       </Button>
     </form>
     );
 };
 
-export default SignIn;
+export default SignUp;
+
+
+
+
 
