@@ -1,0 +1,336 @@
+{
+    "customers": [
+      {
+        "id": 11908,
+        "name": "Ram",
+        "color": [
+          182,
+          73,
+          99
+        ],
+        "email": "jesus_christ@church.com",
+        "pincode": "Mumbai",
+        "location_name": "Mumbai, Maharashtra, India",
+        "type": "C",
+        "profile_pic": null,
+        "gst": ""
+      },
+      {
+        "id": 11909,
+        "name": "Sita",
+        "color": [
+          123,
+          45,
+          67
+        ],
+        "email": "sita_ayodhya@kingdom.com",
+        "pincode": "Ayodhya",
+        "location_name": "Ayodhya, Uttar Pradesh, India",
+        "type": "B",
+        "profile_pic": null,
+        "gst": "29ABCDE1234FZ1"
+      },
+      {
+        "id": 11910,
+        "name": "Lakshman",
+        "color": [
+          89,
+          67,
+          54
+        ],
+        "email": "lakshman@forest.com",
+        "pincode": "Chitrakoot",
+        "location_name": "Chitrakoot, Madhya Pradesh, India",
+        "type": "A",
+        "profile_pic": null,
+        "gst": "23BCDEF5678GH9"
+      },
+      {
+        "id": 11911,
+        "name": "Hanuman",
+        "color": [
+          101,
+          45,
+          78
+        ],
+        "email": "hanuman@mountain.com",
+        "pincode": "Rishikesh",
+        "location_name": "Rishikesh, Uttarakhand, India",
+        "type": "C",
+        "profile_pic": null,
+        "gst": "07ABCDE9876XY2"
+      },
+      {
+        "id": 11912,
+        "name": "Bharat",
+        "color": [
+          200,
+          50,
+          100
+        ],
+        "email": "bharat@kingdom.com",
+        "pincode": "Nandigram",
+        "location_name": "Nandigram, Uttar Pradesh, India",
+        "type": "B",
+        "profile_pic": null,
+        "gst": "27ABCDE6543UT5"
+      }
+    ],
+    "products": [
+      {
+        "id": 209,
+        "display_id": 8,
+        "owner": 1079,
+        "name": "New Product",
+        "category": "The god of War",
+        "characteristics": "New Product Characteristics",
+        "features": "",
+        "brand": "New Product Brand",
+        "sku": [
+          {
+            "id": 248,
+            "selling_price": 54,
+            "max_retail_price": 44,
+            "customer": 11908,
+            "customer_profile": {
+              "id": 11908,
+              "name": "Ram",
+              "color": [
+                182,
+                73,
+                99
+              ],
+              "email": "jesus_christ@church.com",
+              "pincode": "Mumbai",
+              "location_name": "Mumbai, Maharashtra, India",
+              "type": "C",
+              "profile_pic": null,
+              "gst": ""
+            },
+            "amount": 33,
+            "unit": "kg",
+            "quantity_in_inventory": 0,
+            "product": 209
+          },
+          {
+            "id": 247,
+            "selling_price": 32,
+            "max_retail_price": 32,
+            "amount": 33,
+            "unit": "kg",
+            "quantity_in_inventory": 0,
+            "product": 209
+          },
+          {
+            "id": 246,
+            "selling_price": 23,
+            "max_retail_price": 21,
+            "amount": 22,
+            "unit": "kg",
+            "quantity_in_inventory": 1,
+            "product": 209
+          }
+        ],
+        "updated_on": "2024-05-24T12:46:41.995873Z",
+        "adding_date": "2024-05-24T12:46:41.995828Z"
+      },
+      {
+        "id": 210,
+        "display_id": 9,
+        "owner": 1080,
+        "name": "Another Product",
+        "category": "Adventure",
+        "characteristics": "Another Product Characteristics",
+        "features": "",
+        "brand": "Another Product Brand",
+        "sku": [
+          {
+            "id": 249,
+            "selling_price": 60,
+            "max_retail_price": 55,
+            "customer": 11909,
+            "customer_profile": {
+              "id": 11909,
+              "name": "Sita",
+              "color": [
+                123,
+                45,
+                67
+              ],
+              "email": "sita_ayodhya@kingdom.com",
+              "pincode": "Ayodhya",
+              "location_name": "Ayodhya, Uttar Pradesh, India",
+              "type": "B",
+              "profile_pic": null,
+              "gst": "29ABCDE1234FZ1"
+            },
+            "amount": 40,
+            "unit": "kg",
+            "quantity_in_inventory": 5,
+            "product": 210
+          },
+          {
+            "id": 250,
+            "selling_price": 45,
+            "max_retail_price": 42,
+            "amount": 37,
+            "unit": "kg",
+            "quantity_in_inventory": 2,
+            "product": 210
+          }
+        ],
+        "updated_on": "2024-05-25T13:00:00.000000Z",
+        "adding_date": "2024-05-25T13:00:00.000000Z"
+      },
+      {
+        "id": 211,
+        "display_id": 10,
+        "owner": 1081,
+        "name": "Special Product",
+        "category": "Magic",
+        "characteristics": "Special Product Characteristics",
+        "features": "",
+        "brand": "Special Product Brand",
+        "sku": [
+          {
+            "id": 251,
+            "selling_price": 70,
+            "max_retail_price": 65,
+            "customer": 11910,
+            "customer_profile": {
+              "id": 11910,
+              "name": "Lakshman",
+              "color": [
+                89,
+                67,
+                54
+              ],
+              "email": "lakshman@forest.com",
+              "pincode": "Chitrakoot",
+              "location_name": "Chitrakoot, Madhya Pradesh, India",
+              "type": "A",
+              "profile_pic": null,
+              "gst": "23BCDEF5678GH9"
+            },
+            "amount": 50,
+            "unit": "kg",
+            "quantity_in_inventory": 3,
+            "product": 211
+          },
+          {
+            "id": 252,
+            "selling_price": 55,
+            "max_retail_price": 50,
+            "amount": 45,
+            "unit": "kg",
+            "quantity_in_inventory": 4,
+            "product": 211
+          }
+        ],
+        "updated_on": "2024-05-26T14:00:00.000000Z",
+        "adding_date": "2024-05-26T14:00:00.000000Z"
+      },
+      {
+        "id": 212,
+        "display_id": 11,
+        "owner": 1082,
+        "name": "Premium Product",
+        "category": "Luxury",
+        "characteristics": "Premium Product Characteristics",
+        "features": "",
+        "brand": "Premium Product Brand",
+        "sku": [
+          {
+            "id": 253,
+            "selling_price": 100,
+            "max_retail_price": 95,
+            "customer": 11911,
+            "customer_profile": {
+              "id": 11911,
+              "name": "Hanuman",
+              "color": [
+                101,
+                45,
+                78
+              ],
+              "email": "hanuman@mountain.com",
+              "pincode": "Rishikesh",
+              "location_name": "Rishikesh, Uttarakhand, India",
+              "type": "C",
+              "profile_pic": null,
+              "gst": "07ABCDE9876XY2"
+            },
+            "amount": 75,
+            "unit": "kg",
+            "quantity_in_inventory": 10,
+            "product": 212
+          },
+          {
+            "id": 254,
+            "selling_price": 85,
+            "max_retail_price": 80,
+            "amount": 70,
+            "unit": "kg",
+            "quantity_in_inventory": 8,
+            "product": 212
+          }
+        ],
+        "updated_on": "2024-05-27T15:00:00.000000Z",
+        "adding_date": "2024-05-27T15:00:00.000000Z"
+      }
+    ],
+    "sale_order_forms": [
+      {
+        "customer_id": 11908,
+        "items": [
+          {
+            "sku_id": 248,
+            "price": 54,
+            "quantity": 10
+          }
+        ],
+        "paid": false,
+        "invoice_no": "Invoice - 1212121",
+        "invoice_date": "2024-07-05"
+      },
+      {
+        "customer_id": 11909,
+        "items": [
+          {
+            "sku_id": 249,
+            "price": 60,
+            "quantity": 5
+          }
+        ],
+        "paid": true,
+        "invoice_no": "Invoice - 1212122",
+        "invoice_date": "2024-07-06"
+      },
+      {
+        "customer_id": 11910,
+        "items": [
+          {
+            "sku_id": 251,
+            "price": 70,
+            "quantity": 3
+          }
+        ],
+        "paid": false,
+        "invoice_no": "Invoice - 1212123",
+        "invoice_date": "2024-07-07"
+      },
+      {
+        "customer_id": 11911,
+        "items": [
+          {
+            "sku_id": 253,
+            "price": 100,
+            "quantity": 2
+          }
+        ],
+        "paid": true,
+        "invoice_no": "Invoice - 1212124",
+        "invoice_date": "2024-07-08"
+      }
+    ]
+  }
